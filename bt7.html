@@ -1,33 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./bt7.css">
+    <meta charset="UTF-8" />
+    <title>My Blog</title>
+    <link rel="stylesheet" href="bt7.css" />
 </head>
+
 <body>
-    <div class="header">
-        <div class="title">
-            <h1>My Blog</h1>
+    <header>
+        <div class="container header-content">
+            <h1 class="logo">MY BLOG</h1>
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Posts</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-        <div class="nav">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
-            <a href="#">Post</a>
+    </header>
+    <main>
+        <div class="container main-content">
+            <section class="featured-post">
+                <h2>Bài viết nổi bật</h2>
+                <h3>Tiêu đề bài viết chính</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut nulla
+                    eu lorem tincidunt tristique.
+                </p>
+                <a href="#" class="read-more">Đọc thêm</a>
+            </section>
+            <section class="other-posts">
+                <h2>Các bài viết khác</h2>
+                <article>
+                    <h4>Bài viết 1</h4>
+                    <p>Lorem ipsum dolor sit amet...</p>
+                </article>
+                <article>
+                    <h4>Bài viết 2</h4>
+                    <p>Ut nulla eu lorem tincidunt...</p>
+                </article>
+                <article>
+                    <h4>Bài viết 3</h4>
+                    <p>Consectetur adipiscing elit...</p>
+                </article>
+            </section>
         </div>
-    </div>
-    <div class="body">
-        <div class="post1">
-
+    </main>
+    <footer>
+        <div class="container footer-content">
+            <p>© 2023 My Blog. All rights reserved.</p>
         </div>
-        <div class="post2">
-
-        </div>
-    </div>
-    <div class="footer">
-        <p>&copy;2025 My Blog , All right reversed </p>
-    </div>
+    </footer>
 </body>
+
 </html>

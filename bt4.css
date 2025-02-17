@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding: 15px;
+    background-color: blue;
+    height: 60px;
+    width: 100%;
+}
+
+.body {
+    margin: 20px 0;
+    display: flex;
+    width: 100%;
+    height: 450px;
+    gap: 10px;
+}
+
+.sidebar {
+    background-color: green;
+    width: 400px;
+    padding: 15px;
+
+}
+
+.content {
+    padding: 15px;
+    width: 100%;
+    background-color: red;
+}
+
+.footer {
+    padding: 15px;
+    position: fixed;
+    background-color: blueviolet;
+    height: 50px;
+    width: 100%;
+
+}

@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.total {
+    margin: 50px;
+}
+
+.big {
+    display: flex;
+
+}
+
+.big>p {
+    padding-top: 5px;
+    width: 200px;
+    height: 70px;
+    background-color: darkgrey;
+    border: 1px solid black;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.small {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.small>p {
+    background-color: darkgrey;
+    gap: 5px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    height: 30px;
+    width: 100px;
+}
